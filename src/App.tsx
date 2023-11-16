@@ -18,7 +18,7 @@ const App = () => {
 
     const fetchTracks = async () => {
       try {
-        const response = await fetch('https://open.spotify.com/playlist/37i9dQZEVXbNG2KDcFcKOF', {
+        const response = await fetch('BQDdKkB2V6sZ47R5ErX-up3JnmFGyeT6nGs-awbc-Wf89JInewsb9qR0xQw4hQOEgLvgOHN7_ktw3wV-MLaDYza2VYNJ_SREtGmPXZPE6TIkfF3yt-F3kN_v32q114Pe8BLZi-ycz5DKPzaxWTJ3XrXu-l5OowYIZVEn0C8-2QzCCZwY9K6XE9jkIuXMIN-qXVWVECqKsMTuPHIeZLsLqmFDmsJyIg', {
           method: 'GET',
           headers: {
             Authorization: 'Bearer ' + apiToken,
